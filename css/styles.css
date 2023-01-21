@@ -1,0 +1,30 @@
+ body {background-color: #F5F5F5;
+color: black}
+ /*conteiner-color-pf  */
+#EEEEEE
+/*conteiner-color-studio */
+#757575
+ /* button-color */
+ #F5F4FA
+ /* button-color-accent */
+ #2196F3
+ /* footer-color */
+ #2F303A
+ /* title-text-color- */
+#212121
+/* text-color */
+#757575
+ /* accent-color */
+ #2196F3
+/* text-color-fotter */
+#FFFFFF
+
+
+
+:root
+
+/* кнопки */
+.button {
+  color: var(--title-text-color);  
+  background-color: var();
+}
