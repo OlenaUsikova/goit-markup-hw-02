@@ -1,9 +1,17 @@
  body {background-color: #F5F5F5;
-color: black}
+color: #757575;
+font-family: Roboto, sans-serif;
+font-style: normal;
+}
+a {text-decoration: none;}
+address a {text-decoration: none;
+color: #FFFFFF;}
+
+ul {list-style: none;}
+
  /*conteiner-color-pf  */
 #EEEEEE
-/*conteiner-color-studio */
-#757575
+
  /* button-color */
  #F5F4FA
  /* button-color-accent */
@@ -18,7 +26,8 @@ color: black}
  #2196F3
 /* text-color-fotter */
 #FFFFFF
-
+/* our team */
+#F5F4FA
 
 
 :root
@@ -27,4 +36,57 @@ color: black}
 .button {
   color: var(--title-text-color);  
   background-color: var();
+}
+/* Logo */
+.logo-header {font-family: Raleway; font-weight:  700px Size 26px Line height 1.2; color: #000000;}
+.logo-footer {
+    font-family: Raleway;
+    font-weight:  700px Size 26px Line height 1.2;
+    color: #FFFFFF;
+}
+.logo-color {color: #2196F3;}
+
+/* Header */
+.nav-header {font-weight: 500;
+    font-size: 14px;
+    line-height: 1,2;
+    color: #212121;
+}
+.nav-header-contact {color: #757575}
+
+.nav-header:hover, .nav-header:focus {
+    color: #2196F3;
+}
+.nav-header.current{color: #2196F3;}
+
+/* Footer */
+.footer {font-style: normal;
+    background-color: #2F303A;
+}
+
+.footer-link{
+    color: #FFFFFF;}
+.footer-link:hover,
+.footer-link:focus {color: #2196F3;}
+.footer-fizadr {font-style: normal; font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7px;}
+ .footer-adr {font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7px;
+    color: rgba(255, 255, 255, 0.6)}
+
+/* Other */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }

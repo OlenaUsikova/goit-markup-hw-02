@@ -14,14 +14,14 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="page-header">
       <!-- Navigation -->
-      <nav>
-        <a href="WebStudio">WebStudio</a>
+      <nav class="nav-header">
+        <a class="logo" href="WebStudio">WebStudio</a>
         <ul>
-          <li><a href="Студія">Студія</a></li>
-          <li><a href="./portfolio.html"></a>Портфоліо</li>
-          <li><a href="Контакти">Контакти</a></li>
+          <li><a class="nav-header current" href="Студія">Студія</a></li>
+          <li><a class="nav-header" href="./portfolio.html"></a>Портфоліо</li>
+          <li><a class="nav-header" href="Контакти">Контакти</a></li>
         </ul>
       </nav>
       <ul>
@@ -40,7 +40,7 @@
       </section>
       <!-- Advantages -->
       <section>
-        <h2>Особливості компанії</h2>
+        <h2 class="isually-hidden">Особливості компанії</h2>
         <ul>
           <li>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -127,18 +127,32 @@
     </main>
     <!--footer  -->
     <footer>
-      <a href="WebStudio">WebStudio</a>
-      <address>
-        <ul>
-          <li>
-            <a href="м.Київ,_пр-т_Лесі_Українки,_26"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+14251234563">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="footer">
+        <a class="logo-footer" href="WebStudio"
+          ><span class="logo-color">Web</span> Studio</a
+        >
+        <address>
+          <ul>
+            <li>
+              <a class="footer-link" href="м.Київ,_пр-т_Лесі_Українки,_26"
+                ><span class="footer-fizadr">
+                  м. Київ, пр-т Лесі Українки, 26</span
+                ></a
+              >
+            </li>
+            <li>
+              <a class="footer-link" href="mailto:info@devstudio.com"
+                ><span class="footer-adr">fo@devstudio.com</span></a
+              >
+            </li>
+            <li>
+              <a class="footer-link" href="tel:+14251234563"
+                ><span class="footer-adr">+38 096 111 11 11</span></a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
